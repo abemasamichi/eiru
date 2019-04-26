@@ -1,0 +1,126 @@
+@charaset "UTF-8";
+body {
+    line-height: 2;
+}
+
+/*リンク擬似クラスの設定*/
+
+.albumbox1 {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 63px
+}
+
+.albumleft {
+    width: 317px;
+}
+
+.albumright {
+    width: 620px;
+}
+
+.albumpicture1 {
+    display: flex;
+}
+
+.bestalubum {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.albumsite1 {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.albumsite2 {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+li {
+    list-style: none;
+    float: left;
+}
+
+
+p {
+    float: left;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    background: blue;
+    color: #333333;
+    padding: 15px;
+}
+
+
+header h1 {
+    font-size: 40px;
+    color: white;
+}
+
+
+
+
+.albumright h1 {
+    font-size: 35px;
+    color: red;
+}
+
+footer {
+    clear: both;
+    height: 50px;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+dl {
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+}
+
+.A dt {
+    width: 450px;
+}
+
+.A dd {
+    width: 550px;
+}
+
+.box2 {
+    width: 200px;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+
+.border {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.bg {
+    width: 1000px;
+    height: 200px;
+    background: url(../images/kabe.png)
+}
+
+.bg p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
